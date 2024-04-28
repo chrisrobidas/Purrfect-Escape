@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
 
     private void Update()
     {
-        if (_isPlaying && Input.GetKeyDown(KeyCode.Escape))
+        if (_isPlaying && Input.GetKeyDown(KeyCode.Escape) && Application.platform != RuntimePlatform.WebGLPlayer)
         {
             if (_exitMenu.activeSelf)
             {

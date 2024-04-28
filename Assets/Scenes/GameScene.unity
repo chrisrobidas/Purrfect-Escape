@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22867331, g: 0.39746043, b: 0.82464236, a: 1}
+  m_IndirectSpecularColor: {r: 0.22868772, g: 0.39753947, b: 0.8251322, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14522,6 +14522,7 @@ GameObject:
   - component: {fileID: 703834669}
   - component: {fileID: 703834668}
   - component: {fileID: 703834667}
+  - component: {fileID: 703834670}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -14643,6 +14644,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703834665}
   m_CullTransparentMesh: 1
+--- !u!114 &703834670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703834665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb59030baad98f4587b62a2ad6ae072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &705814097
 PrefabInstance:
   m_ObjectHideFlags: 0

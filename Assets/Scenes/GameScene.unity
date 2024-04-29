@@ -26425,6 +26425,10 @@ PrefabInstance:
       propertyPath: m_AvoidObstacles
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5898685932697764506, guid: 144bbb3555d15de40bda312cf4362ac2, type: 3}
+      propertyPath: m_DampingWhenOccluded
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5898685932697764507, guid: 144bbb3555d15de40bda312cf4362ac2, type: 3}
       propertyPath: m_RootOrder
       value: 4
